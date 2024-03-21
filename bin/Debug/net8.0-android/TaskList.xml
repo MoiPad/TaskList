@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskList</name>
+    </assembly>
+    <members>
+        <member name="T:TaskList.ViewModels.AddTareaPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="M:TaskList.ViewModels.AddTareaPageViewModel.AddUpdate">
+            <summary>
+            Agrega o actualiza un registro
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaskList.ViewModels.AddTareaPageViewModel.Validar(TaskList.Models.Tarea,System.Int32)">
+            <summary>
+            Valida que los campos no esten vacíos
+            </summary>
+            <param name="Tarea">Objeto a validar</param>
+            <returns></returns>
+        </member>
+        <member name="M:TaskList.ViewModels.AddTareaPageViewModel.Alerta(System.String,System.String)">
+            <summary>
+            Método personalizado para construir alertas
+            </summary>
+            <param name="Tipo">Tipo de Alerta</param>
+            <param name="Mensaje">Mensaje de Alerta</param>
+        </member>
+        <member name="P:TaskList.ViewModels.AddTareaPageViewModel.Id">
+            <inheritdoc cref="F:TaskList.ViewModels.AddTareaPageViewModel.id"/>
+        </member>
+        <member name="P:TaskList.ViewModels.AddTareaPageViewModel.Nombre">
+            <inheritdoc cref="F:TaskList.ViewModels.AddTareaPageViewModel.nombre"/>
+        </member>
+        <member name="P:TaskList.ViewModels.AddTareaPageViewModel.Estado">
+            <inheritdoc cref="F:TaskList.ViewModels.AddTareaPageViewModel.estado"/>
+        </member>
+        <member name="F:TaskList.ViewModels.AddTareaPageViewModel.addUpdateCommand">
+            <summary>The backing field for <see cref="P:TaskList.ViewModels.AddTareaPageViewModel.AddUpdateCommand"/>.</summary>
+        </member>
+        <member name="P:TaskList.ViewModels.AddTareaPageViewModel.AddUpdateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TaskList.ViewModels.AddTareaPageViewModel.AddUpdate"/>.</summary>
+        </member>
+        <member name="T:TaskList.ViewModels.TareasMainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="M:TaskList.ViewModels.TareasMainPageViewModel.GetAll">
+            <summary>
+            Obtiene el listado de Tareas
+            </summary>
+        </member>
+        <member name="M:TaskList.ViewModels.TareasMainPageViewModel.GoToAddTareaPage">
+            <summary>
+            Redirecciona al formulario de Estudiantes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaskList.ViewModels.TareasMainPageViewModel.SelectEstudiantes(TaskList.Models.Tarea)">
+            <summary>
+            Selecciona el registro para editar o eliminar
+            </summary>
+            <param name="tarea">Objeto a editar o eliminar</param>
+            <returns>Actualizar: Nos lleva al formulario de Empleado, Eliminar: Elimina el registro</returns>
+        </member>
+        <member name="M:TaskList.ViewModels.TareasMainPageViewModel.Alerta(System.String,System.String)">
+            <summary>
+            Método personalizado para construir alertas
+            </summary>
+            <param name="Tipo">Tipo de Alerta</param>
+            <param name="Mensaje">Mensaje de Alerta</param>
+        </member>
+        <member name="P:TaskList.ViewModels.TareasMainPageViewModel.TareaCollection">
+            <inheritdoc cref="F:TaskList.ViewModels.TareasMainPageViewModel.tareaCollection"/>
+        </member>
+        <member name="F:TaskList.ViewModels.TareasMainPageViewModel.goToAddTareaPageCommand">
+            <summary>The backing field for <see cref="P:TaskList.ViewModels.TareasMainPageViewModel.GoToAddTareaPageCommand"/>.</summary>
+        </member>
+        <member name="P:TaskList.ViewModels.TareasMainPageViewModel.GoToAddTareaPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TaskList.ViewModels.TareasMainPageViewModel.GoToAddTareaPage"/>.</summary>
+        </member>
+        <member name="F:TaskList.ViewModels.TareasMainPageViewModel.selectEstudiantesCommand">
+            <summary>The backing field for <see cref="P:TaskList.ViewModels.TareasMainPageViewModel.SelectEstudiantesCommand"/>.</summary>
+        </member>
+        <member name="P:TaskList.ViewModels.TareasMainPageViewModel.SelectEstudiantesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:TaskList.ViewModels.TareasMainPageViewModel.SelectEstudiantes(TaskList.Models.Tarea)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Nombre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Nombre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Estado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Estado" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TareaCollection">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TareaCollection" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Nombre">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Nombre" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Estado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Estado" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TareaCollection">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TareaCollection" generated properties.</summary>
+        </member>
+    </members>
+</doc>

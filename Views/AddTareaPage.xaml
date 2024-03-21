@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskList.Views.AddTareaPage"
+             xmlns:viewModels="clr-namespace:TaskList.ViewModels"
+             x:DataType="viewModels:AddTareaPageViewModel"
+             Title="Agregar Tarea" >
+
+    <VerticalStackLayout Padding="30,10,30,10" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+        <Label Text="Nombre:" />
+        <Entry Text="{Binding Nombre}" Keyboard="Text" Placeholder="Ejemplo: Llamar a Juan" FontSize="12" TextColor="#848484" />
+        <Label Text="Estado:" />
+
+        <Picker x:Name="MiList" Title="Select Estado" SelectedIndexChanged="OnPickerSelectedIndexChanged">
+            <Picker.Items> 
+                <x:String>Pendiente</x:String>
+                <x:String>Atrasado</x:String>
+                <x:String>En Proceso</x:String>
+                <x:String>Completado</x:String>
+                <x:String>Cancelado</x:String>
+                <x:String>Eliminado</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Entry x:Name="Estado" IsVisible="true" Text="{Binding Estado}" Placeholder="Ejemplo: Pendiente" FontSize="12" TextColor="#848484" />
+        <Entry x:Name="List" IsVisible="true" Text="{Binding Source={x:Reference MiList}, Path=SelectedItem}" Placeholder="Ejemplo: Pendiente" FontSize="12" TextColor="#848484" />
+        <Button Text="Guardar" x:Name="btnGuardar" Command="{Binding AddUpdateCommand}" BackgroundColor="#0080FF" FontSize="16" TextColor="#FFFFFF" />
+    </VerticalStackLayout>
+    
+    
+</ContentPage>
