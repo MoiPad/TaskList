@@ -9,18 +9,10 @@ namespace TaskList.Services
 
         public TareaService()
         {
-            try
-            {
+           
                 string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TaskList.db3");
                 _dbConnection = new SQLiteConnection(dbPath);
                 _dbConnection.CreateTable<Tarea>();
-
-            }
-            catch (Exception ex)
-            {
-                // Handle the exception (e.g., log it or display an error message)
-                Console.WriteLine($"Error: {ex.Message}");
-            }
         }
 
         public List<Tarea> GetAll()
@@ -42,6 +34,11 @@ namespace TaskList.Services
         public int Delete(Tarea tarea)
         {
             return _dbConnection.Delete(tarea);
+        }
+
+        public List<Tarea> SearchByName(string name)
+        {
+            return _dbConnection.Table<Tarea>().Where(t => t.Nombre.Contains(name)).ToList();
         }
     }
 }

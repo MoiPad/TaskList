@@ -1,1 +1,1 @@
-C:\Users\Claro\Desktop\Proyecto PROGRAMACION\TaskList\TaskList.csproj;x64
+C:\Users\MPamdoe\source\repos\TaskList\TaskList.csproj;x64

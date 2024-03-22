@@ -1,11 +1,12 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Windows.Input;
 using TaskList.Models;
 using TaskList.Services;
 
 namespace TaskList.ViewModels
 {
-    public partial class AddTareaPageViewModel :  ObservableObject
+    public partial class AddTareaPageViewModel : ObservableObject
     {
         [ObservableProperty]
         private int id;
@@ -18,6 +19,8 @@ namespace TaskList.ViewModels
 
         private readonly TareaService _tareaservice;
 
+
+
         public AddTareaPageViewModel()
         {
             _tareaservice = new TareaService();
@@ -27,10 +30,18 @@ namespace TaskList.ViewModels
         {
             Id = tarea.Id;
             Nombre = tarea.Nombre;
-            Estado = "Pendiente";
+            Estado = tarea.Estado;
 
             _tareaservice = new TareaService();
         }
+        public List<string> EstadosDisponibles { get; } = new List<string>
+        {
+            "Por hacer",
+            "En progreso",
+            "Finalizada"
+        };
+
+   
 
         /// <summary>
         /// Agrega o actualiza un registro
@@ -46,10 +57,10 @@ namespace TaskList.ViewModels
                 {
                     Id = Id,
                     Nombre = Nombre,
-                    Estado = "Pendiente"
+                    Estado = Estado
                 };
 
-                if (Validar(tarea, Id)) {
+                if (Validar(tarea)) {
                     if (Id == 0)
                     {
                         _tareaservice.Insert(tarea);
@@ -72,7 +83,7 @@ namespace TaskList.ViewModels
         /// </summary>
         /// <param name="Tarea">Objeto a validar</param>
         /// <returns></returns>
-        private bool Validar(Tarea tarea, int tipo)
+        private bool Validar(Tarea tarea)
         {
             try
             {
@@ -82,26 +93,15 @@ namespace TaskList.ViewModels
                     return false;
                 }
 
-                
-                if (tarea.Id == null)
+                if (tarea.Estado == "Select Estado")
                 {
-                    Alerta("ADVERTENCIA", "Seleccione una tarea");
+                    Alerta("ADVERTENCIA", "Seleccione un estado valido");
                     return false;
                 }
-
-                if (tipo != 0)
+                else
                 {
-                    if (tarea.Estado == null || tarea.Estado == "")
-                    {
-                        Alerta("ADVERTENCIA", "Seleccione un estado valido");
-                        return false;
-                    }
-                    else
-                    {
-                        return true;
-                    }
+                    return true;
                 }
-                return true;
             }
             catch (Exception ex)
             {

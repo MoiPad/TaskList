@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskList
-build_property.ProjectDir = C:\Users\Claro\Desktop\Proyecto PROGRAMACION\TaskList\
+build_property.ProjectDir = C:\Users\MPamdoe\Source\Repos\TaskList\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Claro/Desktop/Proyecto PROGRAMACION/TaskList/App.xaml]
+[C:/Users/MPamdoe/Source/Repos/TaskList/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TaskList.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Claro/Desktop/Proyecto PROGRAMACION/TaskList/Resources/Styles/Colors.xaml]
+[C:/Users/MPamdoe/Source/Repos/TaskList/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TaskList.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Claro/Desktop/Proyecto PROGRAMACION/TaskList/Resources/Styles/Styles.xaml]
+[C:/Users/MPamdoe/Source/Repos/TaskList/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TaskList.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Claro/Desktop/Proyecto PROGRAMACION/TaskList/Views/AddTareaPage.xaml]
+[C:/Users/MPamdoe/Source/Repos/TaskList/Views/AddTareaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TaskList.Views.AddTareaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AddTareaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AddTareaPage.xaml
 
-[C:/Users/Claro/Desktop/Proyecto PROGRAMACION/TaskList/Views/TareaMainPage.xaml]
+[C:/Users/MPamdoe/Source/Repos/TaskList/Views/TareaMainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TaskList.Views.TareaMainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\TareaMainPage.xaml

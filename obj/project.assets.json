@@ -11681,7 +11681,7 @@
         }
       }
     },
-    "net8.0-android34.0/iossimulator-x64": {
+    "net8.0-android34.0/ios-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -21375,7 +21375,7 @@
         }
       }
     },
-    "net8.0-ios17.2/iossimulator-x64": {
+    "net8.0-ios17.2/ios-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -25633,7 +25633,7 @@
         }
       }
     },
-    "net8.0-maccatalyst17.2/iossimulator-x64": {
+    "net8.0-maccatalyst17.2/ios-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -30494,7 +30494,7 @@
         }
       }
     },
-    "net8.0-windows10.0.19041/iossimulator-x64": {
+    "net8.0-windows10.0.19041/ios-arm64": {
       "CommunityToolkit.Mvvm/8.2.2": {
         "type": "package",
         "compile": {
@@ -36843,24 +36843,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Claro\\.nuget\\packages\\": {},
+    "C:\\Users\\MPamdoe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\TaskList.csproj",
+      "projectUniqueName": "C:\\Users\\MPamdoe\\Source\\Repos\\TaskList\\TaskList.csproj",
       "projectName": "TaskList",
-      "projectPath": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\TaskList.csproj",
-      "packagesPath": "C:\\Users\\Claro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\obj\\",
+      "projectPath": "C:\\Users\\MPamdoe\\Source\\Repos\\TaskList\\TaskList.csproj",
+      "packagesPath": "C:\\Users\\MPamdoe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MPamdoe\\Source\\Repos\\TaskList\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Claro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MPamdoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -37188,7 +37188,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-x64": {

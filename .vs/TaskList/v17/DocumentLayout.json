@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\",
+  "WorkspaceRootPath": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\claro\\desktop\\proyecto programacion\\tasklist\\views\\tareamainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\mpamdoe\\source\\repos\\tasklist\\views\\tareamainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|solutionrelative:views\\tareamainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\claro\\desktop\\proyecto programacion\\tasklist\\viewmodels\\tareasmainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\mpamdoe\\source\\repos\\tasklist\\viewmodels\\tareasmainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|solutionrelative:viewmodels\\tareasmainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\claro\\desktop\\proyecto programacion\\tasklist\\viewmodels\\addtareapageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|solutionrelative:viewmodels\\addtareapageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\claro\\desktop\\proyecto programacion\\tasklist\\views\\addtareapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|solutionrelative:views\\addtareapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|c:\\users\\mpamdoe\\source\\repos\\tasklist\\services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A525963C-3AC4-4ED4-A9D9-817A9BB1B281}|TaskList.csproj|solutionrelative:services\\tareaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TareaMainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\Views\\TareaMainPage.xaml",
-              "RelativeDocumentMoniker": "Views\\TareaMainPage.xaml",
-              "ToolTip": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\Views\\TareaMainPage.xaml",
-              "RelativeToolTip": "Views\\TareaMainPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T23:23:26.119Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TareasMainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\ViewModels\\TareasMainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\ViewModels\\TareasMainPageViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\TareasMainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\ViewModels\\TareasMainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\ViewModels\\TareasMainPageViewModel.cs",
               "RelativeToolTip": "ViewModels\\TareasMainPageViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T23:23:19.144Z",
+              "WhenOpened": "2024-03-22T03:44:52.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddTareaPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\ViewModels\\AddTareaPageViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\AddTareaPageViewModel.cs",
-              "ToolTip": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\ViewModels\\AddTareaPageViewModel.cs",
-              "RelativeToolTip": "ViewModels\\AddTareaPageViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Title": "TareaService.cs",
+              "DocumentMoniker": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\Services\\TareaService.cs",
+              "RelativeDocumentMoniker": "Services\\TareaService.cs",
+              "ToolTip": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\Services\\TareaService.cs",
+              "RelativeToolTip": "Services\\TareaService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA5wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T21:24:30.942Z",
+              "WhenOpened": "2024-03-22T03:43:42.375Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddTareaPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\Views\\AddTareaPage.xaml",
-              "RelativeDocumentMoniker": "Views\\AddTareaPage.xaml",
-              "ToolTip": "C:\\Users\\Claro\\Desktop\\Proyecto PROGRAMACION\\TaskList\\Views\\AddTareaPage.xaml",
-              "RelativeToolTip": "Views\\AddTareaPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAEBVwBkAAABDAAAA",
+              "DocumentIndex": 0,
+              "Title": "TareaMainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\Views\\TareaMainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\TareaMainPage.xaml",
+              "ToolTip": "C:\\Users\\MPamdoe\\source\\repos\\TaskList\\Views\\TareaMainPage.xaml",
+              "RelativeToolTip": "Views\\TareaMainPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T20:40:48.69Z",
+              "WhenOpened": "2024-03-22T03:18:30.311Z",
               "EditorCaption": ""
             }
           ]

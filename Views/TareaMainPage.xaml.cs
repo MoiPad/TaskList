@@ -4,17 +4,17 @@ namespace TaskList.Views;
 
 public partial class TareaMainPage : ContentPage
 {
-    private TareasMainPageViewModel _viewModel;
+    private TareasMainPageViewModel viewModel;
     public TareaMainPage()
     {
         InitializeComponent();
-        _viewModel = new TareasMainPageViewModel();
-        this.BindingContext = _viewModel;
+        viewModel = new TareasMainPageViewModel();
+        this.BindingContext = viewModel;
     }
 
     protected override void OnAppearing()
     {
         base.OnAppearing();
-        _viewModel.GetAll();
+        viewModel.GetAll();
     }
 }
